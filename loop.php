@@ -12,7 +12,12 @@
 //    echo $x;
 //}
 
-$numberOfBox = 10; ?>
+$numberOfBox = 10;
+
+//while ()
+
+
+?>
 <style>
     .box {
         background: red;
