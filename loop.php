@@ -12,41 +12,21 @@
 //    echo $x;
 //}
 
-$numberOfBox = 10;
+//$numberOfBox = 10;
 
 //while ()
 
 //test
 
+//$x = 1;
+//
+//while ($x <= 10) {
+//    echo $x;
+//    $x++;
+//}
 
-?>
-<style>
-    .box {
-        background: red;
-        height: 100px;
-        width: 100px;
-        float: left;
-        margin: 5px;
-    }
-
-    .greenBox {
-        background: green;
-        height: 100px;
-        width: 100px;
-        float: left;
-        margin: 5px;
-    }
-</style>
-
-<blockquote>
-    <?php for ($x = 0; $x < $numberOfBox; $x++) : ?>
-        <?php if ($x % 2 == 0) : ?>
-            <div class="greenBox"></div>
-        <?php else: ?>
-            <div class="box"></div>
-
-        <?php endif; ?>
-
-    <?php endfor; ?>
-
-</blockquote>
+$x=1;
+do{
+    echo $x;
+    $x++;
+}while($x<10);
